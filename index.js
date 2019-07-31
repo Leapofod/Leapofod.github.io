@@ -19,11 +19,11 @@ const navItems = [
 		dropdowns: [
 			{
 				name: 'games',
-				link: 'games.html'
+				link: 'projects/games.html'
 			},
 			{
 				name: 'lessons',
-				link: 'lessons.html'
+				link: 'projects/lessons.html'
 			}
 		]
 	}
@@ -36,8 +36,10 @@ function loadNavBars() {
 
 	const navLinks = [];
 
+	// For every Navigation Item
 	for (const item of navItems) {
 
+		// Create a List Item and Link for File.
 		const listItem = document.createElement('li');
 		const itemLink = document.createElement('a');
 
@@ -47,11 +49,13 @@ function loadNavBars() {
 
 		listItem.appendChild(itemLink);
 
+		// If Navigation Item has Dropdowns
 		if (item.dropdowns.length > 0) {
 
 			const dropCont = document.createElement('div');
 			const dropdownItems = [];
 
+			// Loop through all dropdown items
 			for (const dropdown of item.dropdowns) {
 
 				const dropLink = document.createElement('a');
