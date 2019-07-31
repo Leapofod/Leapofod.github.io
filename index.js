@@ -68,7 +68,7 @@ function loadNavBars() {
 
 			listItem.appendChild(dropCont);
 		}
-		
+
 		navLinks.push(listItem);
 	}
 
@@ -85,7 +85,7 @@ function loadNavBars() {
 
 			navBars.item(i).appendChild(navElm);
 		}
-		
+
 	}
 
 
