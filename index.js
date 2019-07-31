@@ -19,11 +19,11 @@ const navItems = [
 		dropdowns: [
 			{
 				name: 'games',
-				link: 'projects/games.html'
+				link: 'games.html'
 			},
 			{
 				name: 'lessons',
-				link: 'projects/lessons.html'
+				link: 'lessons.html'
 			}
 		]
 	}
