@@ -15,7 +15,7 @@ const navItems = [
 	},
 	{
 		name: 'projects',
-		link: 'projects.html',
+		link: '#',
 		dropdowns: [
 			{
 				name: 'games',
