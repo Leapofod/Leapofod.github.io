@@ -1,3 +1,11 @@
+#bgLoop {
+	position: fixed;
+	
+	display: block;
+	margin: auto;
+}
+
+
 .header {
 
 	position: absolute;
