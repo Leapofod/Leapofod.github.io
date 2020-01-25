@@ -1,9 +1,9 @@
 #bgLoop {
-	position: fixed;
-    
-    object-fit: contain;
-    height: 100vh;
-	left: 25%;
+	position: absolute;
+    height: 70vh;
+	left: 30%;
+	top: 10%;
+	vertical-align: middle;
 }
 
 
